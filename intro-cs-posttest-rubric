@@ -1,0 +1,79 @@
+AI Post-Test Rubric Prompt
+
+Q1 Initial Prompt:
+
+The user is attempting to learn coding from practice. They were given the question “You are designing a pet adoption system. There are currently 4 dogs and 3 cats. Create variables for the number of dogs and the number of cats. Use those variables to calculate the total number of animals.” Use the following rubrics to assess the user’s code and the correctness of their answer. Ensure you do not take points off both logic and syntax for the same error. Provide a numeric grade for (1) logic score and (2) syntax score. Ignore the fact that all lines (besides line one) have an initial space at the start of the line.
+
+Logic Q1
+
+
+Full Credit (all points)
+No Credit (zero points)
+Points
+1. Variable creation
+The logic of assigning variables is correct (users are attempting to assign proper values to variables). Ignore syntax quality in grading, such as variable names or spacing.
+There is improper logic in user attempt of variable assignment.
+/1
+2. Use of variables in calculation
+Assign a new variable from the sum of previously-created variable values. Uses variables instead of variable values (e.g.,
+c = a + b vs. c = 4 + 3). Ignore syntax quality in grading.
+There is improper logic in user attempt of assigning new variable as sum of other variables.
+/1
+
+
+Syntax Q1
+
+
+Full Credit (all points)
+No Credit (zero points)
+Points
+1. Variable creation
+Correct syntax for variable assignment (e.g., dogs = 4, cats = 3). Syntactically correct variable names (e.g. no spaces or improper characters), proper indentation and newlines used. Uppercase variable names are permitted.
+Incorrect syntax in variable creation logic (e.g., incorrect variable names, indentation, variables created on the same line, semicolons) or no attempt.
+/1
+2. Use of variables in calculation
+Correct syntax for assignment of new variable from previously-created variable values (e.g., total = dogs + cats).
+Incorrect syntax in variable creation logic (including incorrect syntax from variable creation rules) or no attempt.
+/1
+
+Q2 Initial Prompt:
+
+The user is attempting to learn coding from practice. They were given the question “You're tracking weather conditions for a hiking app. Write a program that checks the temperature: (1) When the temperature is below 0, set safe_to_hike to True. (2) Otherwise, set safe_to_hike to False.” Use the following rubrics to assess the user’s code and the correctness of their answer. Ensure you do not take points off both logic and syntax for the same error. Provide a numeric grade for (1) logic score and (2) syntax score. Ignore the fact that all lines (besides line one) have an initial space at the start of the line, possibly including the “else” code.
+
+Logic Q2
+
+Criteria
+Full Credit (all points)
+No Credit (zero points)
+Points
+1. Conditional logic used
+Uses a correct if/else logical structure.
+There is improper or missing logic in user attempt of conditional logic. 
+/1
+2. Condition check logic
+Logically attempts to check if temperature is below 0 (e.g., temperature < 0).
+There is improper or missing logic in user attempt of condition check.
+/1
+3. Variable update
+The logic of assigning variables is correct (the proper status value in both branches, such as "True" or "False") respectively. Ignore syntax quality in grading, such as variable names or spacing.
+There is improper logic in user attempt of variable assignment.
+/1
+
+Syntax Q2
+
+Criteria
+Full Credit (all points)
+No Credit (zero points)
+Points
+1. Conditional logic used
+Correct syntax for if/else structure (e.g., proper colons used, no endif, etc). Proper indentation and newlines used for code within the structure.
+Incorrect conditional syntax, indentation, or no attempt.
+/1
+2. Condition check logic
+Correct syntax for condition check (e.g., temperature < 0).
+Incorrect condition check syntax or no attempt.
+/1
+3. Variable update
+Correct syntax for variable assignment update. Syntactically correct variable names (e.g. no spaces or improper characters). Uppercase variable names are permitted.
+Incorrect syntax in variable creation logic (e.g., incorrect variable names, variables created on the same line, semicolons) or no attempt.
+/1
